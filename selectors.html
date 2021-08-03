@@ -1,0 +1,66 @@
+<html>
+<head>
+<style>
+body{
+    background-color: rgb(255, 253, 245);
+}
+a{
+    font-size: larger;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 10px;
+    font-weight: 600;
+    
+}
+::marker{
+    color:dodgerblue;
+    font-size: larger;
+}
+
+/* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color:blueviolet;
+}
+
+/* selected link */
+a:active {
+  color: darkgoldenrod;
+}
+
+h1:first-child{
+    color:chocolate;
+}
+
+input[type=text]:focus{
+    width: 250px;
+    background: rgb(178, 243, 245);
+}
+</style>
+</head>
+<body>
+
+<h1>CSS Links</h1><br>
+<a href="https://www.google.com/" target="_blank">Click here</a><br><br>
+<p style="font-size: larger;">CSS selectors are used to "find" the HTML elements you want to style.</p><br>
+<h1>CSS selectors is classified into five categories:</h1>
+<ul style="font-size: larger;">
+    <li><b>Simple selectors</b> (select elements based on name, id, class)</li><br>
+    <li><b>Combinator selectors</b> (select elements based on a specific relationship between them)</li><br>
+    <li><b>Pseudo-class selectors</b> (select elements based on a certain state)</li><br>
+    <li><b>Pseudo-elements selectors</b> (select and style a part of an element)</li><br>
+    <li><b>Attribute selectors</b> (select elements based on an attribute or attribute value)</li><br>
+</ul>
+
+<b>Type your comments :</b> <input type="text" name="comment"/> 
+</body>
+</html>
